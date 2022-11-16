@@ -1,0 +1,52 @@
+@media screen and (min-width: 300px){
+    .company-name{
+        text-align: center;
+        padding: 30px;
+        color: #1875F0;
+    }
+    .search-btn{
+        background-color: white;
+        border: none;
+        margin-left: 60px;
+        margin-top: -30px;
+    }
+    .search-icon{
+        width: 20px;
+    }
+    
+
+}
+
+
+
+
+@media screen and (min-width: 480px){
+    .search-btn{
+        margin-left: 160px;
+    }
+   
+   
+    
+}
+
+
+
+@media screen and (min-width: 800px){
+    .company-name{
+        text-align: left;
+        padding: 20px;
+        margin-left: 50px;
+    }
+    .search{
+        margin-top: -65px;
+    }
+    .search-btn{
+        margin-left: 400px;
+    }
+   
+    
+}
+
+
+
+
