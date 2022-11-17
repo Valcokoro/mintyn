@@ -56,8 +56,45 @@
     }
     .main{
         margin-top: 15px;
-        margin-left: 170px;
+        margin-left: 145px;
         display:flex;
+    }
+    .overview-icon{
+        width:20px;
+        margin-left: 150px;
+    }
+    .overview{
+        margin-left: 5px;
+    }
+    .payments{
+        margin-top: 20px;
+        margin-left: 145px;
+        display: flex;
+    }
+    .wallet-icon{
+        width: 20px;
+        margin-left: 150px;
+    }
+    .all-payments{
+        margin-left: 5px;
+    }
+    .reconciled{
+        display: flex;
+        margin-left: 150px;
+    }
+    .payment-icon{
+        width: 20px;
+    }
+    
+    .rec-payments{
+        margin-left: 5px;
+    }
+    .debt-icon{
+        width: 20px;
+        margin-left: 155px;
+    }
+    .debt{
+        margin-left: 5px;
     }
 }
 
@@ -86,8 +123,37 @@
         margin-left: 280px;
     }
     .main{
-        margin-left: 330px;
+        margin-left: 280px;
         display:flex;
+    }
+    .overview-icon{
+        margin-left: 305px;
+    }
+    .payments{
+        margin-top: 10px;
+        margin-left: 280px;
+        display: flex;
+    }
+    .wallet-icon{
+        width: 20px;
+        margin-left: 300px;
+    }
+    .all-payments{
+        margin-left: 10px;
+    }
+    .payment-icon{
+        width: 20px;
+        margin-left: 150px;
+    }
+    .rec-payments{
+        margin-left: 10px;
+    }
+    .debt-icon{
+        width: 20px;
+        margin-left: 305px;
+    }
+    .debt{
+        margin-left: 5px;
     }
    
 }
@@ -138,12 +204,43 @@
     }
     .main{
         margin-top: 30px;
-        margin-left: 70px;
+        margin-left: 50px;
         display:flex;
     }
-
+    .overview-icon{
+        margin-left: 55px;
+    }
+    .overview{
+        margin-left: 5px;
+    }
+    .payments{
+        margin-top: 40px;
+        margin-left: 50px;
+        display: flex;
+    }
+    .wallet-icon{
+        width: 20px;
+        margin-left: 65px;
+    }
+    .all-payments{
+        margin-left: 5px;
+    }
+    .payment-icon{
+        width: 20px;
+        margin-left: -85px;
+    }
+    .rec-payments{
+        margin-left: 4px;
+    }
+    .debt-icon{
+        width: 20px;
+        margin-left: 67px;
+    }
+    .debt{
+        margin-left: 5px;
+    }
    
-    
+
 }
 
 
