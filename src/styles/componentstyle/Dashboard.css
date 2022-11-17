@@ -7,26 +7,89 @@
     .search-btn{
         background-color: white;
         border: none;
-        margin-left: 60px;
-        margin-top: -30px;
     }
     .search-icon{
         width: 20px;
+        margin-left: 150px;
     }
-    
-
+    .search{
+        margin-top: -40px;
+    }
+    .search-bar{
+        position: absolute;
+        left: 190px;
+        margin-top: 3px;
+        border: none;  
+    }
+    a{
+        text-decoration: none;
+        color: gray;
+        padding: 20px;
+    }
+    .support{
+        position: absolute;
+        top:120px;
+        margin-left: -20px;
+    }
+    .faq{
+        position: absolute;
+        top:150px;
+        margin-left: -10px;
+    }
+    .bell-icon{
+        position: absolute;
+        width:20px;
+        top: 20px;
+        margin-left: -125px;
+    }
+    .side-menu{
+        margin-top:100px
+    }
+    .invoice-btn{
+        background-color: #27AE60;
+        border-radius: 30px;
+        border: none;
+        width: 163px;
+        height: 33px;
+        color: #FFFF;
+        margin-left: 130px;
+    }
+    .main{
+        margin-top: 15px;
+        margin-left: 170px;
+        display:flex;
+    }
 }
 
 
 
 
 @media screen and (min-width: 480px){
-    .search-btn{
-        margin-left: 160px;
+    .search-icon{
+        margin-left: 310px;
+    }
+    .search-bar{
+        left: 340px;
+    }
+    .support{
+        top:130px;
+        margin-left: -20px;
+    }
+    .faq{
+        top:165px;
+        margin-left: -10px;
+    }
+    .bell-icon{
+        margin-left: 125px;
+    }
+    .invoice-btn{
+        margin-left: 280px;
+    }
+    .main{
+        margin-left: 330px;
+        display:flex;
     }
    
-   
-    
 }
 
 
@@ -38,11 +101,47 @@
         margin-left: 50px;
     }
     .search{
-        margin-top: -65px;
+        margin-top: -70px;
     }
     .search-btn{
+        width: 10px;
+    }
+    .search-icon{
         margin-left: 400px;
     }
+    .search-bar{
+        margin-left: 110px;
+    }
+    .support{
+        position: relative;
+        margin-left: 750px;
+        top: -5px;
+        
+    }
+    .faq{
+        position: relative;
+        top: -5px;
+        margin-left: 35px;
+        text-decoration: none;
+        color: gray;
+    }
+    .bell-icon{
+        position: relative;
+        top: 0px;
+        margin-left: 60px;
+    }
+    .side-menu{
+        margin-top:70px
+    }
+    .invoice-btn{
+        margin-left: 75px;
+    }
+    .main{
+        margin-top: 30px;
+        margin-left: 70px;
+        display:flex;
+    }
+
    
     
 }
