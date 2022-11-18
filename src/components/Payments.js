@@ -20,7 +20,7 @@ const Payments = () => {
     const itemType = payments[0]?.products.map(payment => {
         return (
             <div>
-                {payment.item}
+                {payment.title}
             </div>
             
         )
@@ -43,6 +43,11 @@ const Payments = () => {
                             <th>
                                 <h6 className='time'>Time</h6>
                             </th>
+                        </tr>
+                        <tr>
+                            <td>
+                                {itemType}
+                            </td>
                         </tr>
                     </tbody>
 
