@@ -7,6 +7,7 @@ import wallet from '../assets/wallet.png';
 import payment from '../assets/payment.png';
 import debt from '../assets/debt.png';
 import settlement from '../assets/settlement.png';
+import Payments from '../components/Payments';
 
 const Dashboard = () => {
   return (
@@ -18,7 +19,6 @@ const Dashboard = () => {
             </button>
             <input 
                type='text' 
-               value=''
                className='search-bar'
                placeholder='Search...'
             />
@@ -50,6 +50,7 @@ const Dashboard = () => {
             <img src={settlement} alt='settlement icon' className='settlement-icon'/>
             <span className='manual-settlement'>Manual Settlement</span>
           </a>
+          <Payments/>
           
 
         </div>

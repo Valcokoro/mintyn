@@ -1,0 +1,31 @@
+@media screen and (min-width: 300px){
+    th{
+        color:gray;
+    }
+    .item-type{
+        font-size: 10px;
+        margin-left: 10px;
+        margin-top: -5px;
+    }
+
+}
+
+
+
+@media screen and (min-width: 480px){
+    .item-type{
+        font-size: 10px;
+        margin-left: 15px;
+    }
+
+}
+
+
+
+@media screen and (min-width: 800px){
+    .item-type{
+        font-size: 15px;
+        margin-left: 505px;
+    }
+
+}

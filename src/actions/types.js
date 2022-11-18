@@ -1,0 +1,1 @@
+export const FETCH_PAYMENTS = 'FETCH_PAYMENTS';
