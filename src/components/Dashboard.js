@@ -6,6 +6,7 @@ import overview from '../assets/overview.svg';
 import wallet from '../assets/wallet.png';
 import payment from '../assets/payment.png';
 import debt from '../assets/debt.png';
+import settlement from '../assets/settlement.png';
 
 const Dashboard = () => {
   return (
@@ -44,6 +45,10 @@ const Dashboard = () => {
           <a href='#' className='unreconciled'>
             <img src={debt} alt='debt icon' className='debt-icon'/>
             <span className='debt'>Un-Reconcilled Payments</span>
+          </a>
+          <a href='#' className='settlement'>
+            <img src={settlement} alt='settlement icon' className='settlement-icon'/>
+            <span className='manual-settlement'>Manual Settlement</span>
           </a>
           
 

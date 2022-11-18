@@ -96,6 +96,16 @@
     .debt{
         margin-left: 5px;
     }
+    .settlement{
+        display: flex;
+    }
+    .settlement-icon{
+        width: 20px;
+        margin-left:155px
+    }
+    .manual-settlement{
+        margin-left: 5px;
+    }
 }
 
 
@@ -149,12 +159,13 @@
         margin-left: 10px;
     }
     .debt-icon{
-        width: 20px;
         margin-left: 305px;
     }
-    .debt{
-        margin-left: 5px;
+    .settlement-icon{
+        width: 20px;
+        margin-left:305px
     }
+   
    
 }
 
@@ -222,9 +233,6 @@
         width: 20px;
         margin-left: 65px;
     }
-    .all-payments{
-        margin-left: 5px;
-    }
     .payment-icon{
         width: 20px;
         margin-left: -85px;
@@ -233,11 +241,10 @@
         margin-left: 4px;
     }
     .debt-icon{
-        width: 20px;
         margin-left: 67px;
     }
-    .debt{
-        margin-left: 5px;
+    .settlement-icon{
+        margin-left: 67px
     }
    
 
