@@ -32,7 +32,16 @@ const Payments = () => {
                     <tbody>
                         <tr>
                             <th>
-                                <p className='item-type'>Item Type</p>
+                                <h6 className='item-type'>Item Type</h6>
+                            </th>
+                            <th>
+                                <h6 className='price'>Price</h6>
+                            </th>
+                            <th>
+                                <h6 className='transaction'>Transaction No</h6>
+                            </th>
+                            <th>
+                                <h6 className='time'>Time</h6>
                             </th>
                         </tr>
                     </tbody>

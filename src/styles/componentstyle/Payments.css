@@ -4,7 +4,25 @@
     }
     .item-type{
         font-size: 10px;
-        margin-left: 10px;
+        margin-left: 20px;
+        margin-top: -5px;
+    }
+    .price{
+        font-size: 10px;
+        display: flex;
+        margin-left: 95px;
+        margin-top: -5px;
+    }
+    .transaction{
+        font-size: 10px;
+        display: flex;
+        margin-left: 40px;
+        margin-top: -5px;
+    }
+    .time{
+        font-size: 10px;
+        display: flex;
+        margin-left: 35px;
         margin-top: -5px;
     }
 
@@ -17,6 +35,15 @@
         font-size: 10px;
         margin-left: 15px;
     }
+    .price{
+        margin-left: 95px;
+    }
+    .transaction{
+        margin-left: 40px;
+    }
+    .time{
+        margin-left: 35px;
+    }
 
 }
 
@@ -26,6 +53,18 @@
     .item-type{
         font-size: 15px;
         margin-left: 505px;
+    }
+    .price{
+        font-size: 15px;
+        margin-left: 155px;
+    }
+    .transaction{
+        font-size: 15px;
+        margin-left: 60px;
+    }
+    .time{
+        font-size: 15px;
+        margin-left: 55px;
     }
 
 }
