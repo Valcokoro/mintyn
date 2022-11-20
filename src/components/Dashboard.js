@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import '../styles/componentstyle/Dashboard.css';
 import search from '../assets/search.svg';
 import bell from '../assets/bell.svg';
@@ -10,6 +10,8 @@ import settlement from '../assets/settlement.png';
 import Payments from '../components/Payments';
 
 const Dashboard = () => {
+  const [payments, setPayments] = useState([]);
+  const handlePayments = () => setPayments(<Payments/>)
   return (
     <div>
         <h1 className='company-name'>TransMonitor</h1>
@@ -31,7 +33,7 @@ const Dashboard = () => {
           <a href='#' className='main'>Main</a>
           <a href='#'>
             <img src={overview} alt='overview icon' className='overview-icon'/>
-            <span className='overview'>Overview</span>
+            <span className='overview' onClick={handlePayments}>Overview</span>
           </a>
           <a href='#' className='payments'>Payments</a>
           <a href='#'>
@@ -50,10 +52,8 @@ const Dashboard = () => {
             <img src={settlement} alt='settlement icon' className='settlement-icon'/>
             <span className='manual-settlement'>Manual Settlement</span>
           </a>
-          <Payments/>
-          
-
         </div>
+        <div>{payments}</div>
             
         
     </div>

@@ -31,7 +31,22 @@ const Payments = () => {
             <div>
                 {payment.price}
             </div>
-            
+        )
+    })
+
+    const transaction = payments[0]?.products.map(payment => {
+        return (
+            <div>
+                {payment.id}
+            </div>
+        )
+    })
+
+    const time = payments[0]?.products.map(payment => {
+        return (
+            <div>
+                {payment.rating}
+            </div>
         )
     })
   return (
@@ -58,6 +73,12 @@ const Payments = () => {
                             </td>
                             <td>
                                 <p className='item-price'>{price}</p>
+                            </td>
+                            <td>
+                                <p className='transaction-no'>{transaction}</p>
+                            </td>
+                            <td>
+                                <p className='item-time'>{time}</p>
                             </td>
                         </tr>
                     </tbody>
