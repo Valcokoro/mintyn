@@ -231,6 +231,10 @@
         margin-left: 50px;
         display: flex;
     }
+    .reconciled{
+        display: flex;
+        margin-left: 150px;
+    }
     .wallet-icon{
         width: 20px;
         margin-left: 65px;
@@ -246,7 +250,7 @@
         margin-left: 67px;
     }
     .settlement-icon{
-        margin-left: 67px
+        margin-left: 57px
     }
    
 
