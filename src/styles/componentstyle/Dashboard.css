@@ -80,7 +80,7 @@
     }
     .reconciled{
         display: flex;
-        margin-left: 80px;
+        margin-left: 75px;
     }
     .payment-icon{
         width: 20px;
@@ -251,6 +251,9 @@
     }
     .settlement-icon{
         margin-left: 57px
+    }
+    .manual-settlement{
+        margin-left: 5px;
     }
    
 
