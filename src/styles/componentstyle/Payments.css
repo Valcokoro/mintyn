@@ -25,6 +25,19 @@
         margin-left: 35px;
         margin-top: -5px;
     }
+    .item-title{
+        font-size: 10px;
+        font-family: 'Segoe UI';
+        margin: -20px 0 0 115px;
+        width: 150px;
+        color: #414042;
+    }
+    .item-price{
+        font-size: 10px;
+        font-family: 'Segoe UI';
+        margin: -30px 0 0 95px;
+        color: #414042;
+    }
 
 }
 
@@ -44,6 +57,12 @@
     .time{
         margin-left: 35px;
     }
+    .item-title{
+        font-size: 10px;
+        padding-left: 75px;
+        padding-top: -100px;
+    }
+
 
 }
 
@@ -52,11 +71,11 @@
 @media screen and (min-width: 800px){
     .item-type{
         font-size: 15px;
-        margin-left: 505px;
+        margin-left: 205px;
     }
     .price{
         font-size: 15px;
-        margin-left: 155px;
+        margin-left: 55px;
     }
     .transaction{
         font-size: 15px;
@@ -65,6 +84,19 @@
     .time{
         font-size: 15px;
         margin-left: 55px;
+    }
+    .item-title{
+        font-size: 15px;
+        font-family: 'Segoe UI';
+        margin: -20px 0 0 295px;
+        width: 230px;
+        color: #414042;
+    }
+    .item-price{
+        font-size: 15px;
+        font-family: 'Segoe UI';
+        margin: -30px 0 0 65px;
+        color: #414042;
     }
 
 }

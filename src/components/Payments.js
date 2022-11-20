@@ -25,7 +25,15 @@ const Payments = () => {
             
         )
     })
-   
+
+    const price = payments[0]?.products.map(payment => {
+        return (
+            <div>
+                {payment.price}
+            </div>
+            
+        )
+    })
   return (
     <section>
                 <table className='payment-table'>
@@ -46,7 +54,10 @@ const Payments = () => {
                         </tr>
                         <tr>
                             <td>
-                                {itemType}
+                                <p className='item-title'>{itemType}</p>
+                            </td>
+                            <td>
+                                <p className='item-price'>{price}</p>
                             </td>
                         </tr>
                     </tbody>
