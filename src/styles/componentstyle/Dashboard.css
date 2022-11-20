@@ -10,14 +10,14 @@
     }
     .search-icon{
         width: 20px;
-        margin-left: 150px;
+        margin-left: 110px;
     }
     .search{
         margin-top: -40px;
     }
     .search-bar{
         position: absolute;
-        left: 190px;
+        margin-left: 5px;
         margin-top: 3px;
         border: none;  
     }
@@ -29,12 +29,12 @@
     .support{
         position: absolute;
         top:120px;
-        margin-left: -20px;
+        margin-left: -7px;
     }
     .faq{
         position: absolute;
         top:150px;
-        margin-left: -10px;
+        margin-left: -5px;
     }
     .bell-icon{
         position: absolute;
@@ -52,35 +52,35 @@
         width: 163px;
         height: 33px;
         color: #FFFF;
-        margin-left: 130px;
+        margin-left: 110px;
     }
     .main{
         margin-top: 15px;
-        margin-left: 145px;
+        margin-left: 70px;
         display:flex;
     }
     .overview-icon{
         width:20px;
-        margin-left: 150px;
+        margin-left: 70px;
     }
     .overview{
         margin-left: 5px;
     }
     .payments{
         margin-top: 20px;
-        margin-left: 145px;
+        margin-left: 70px;
         display: flex;
     }
     .wallet-icon{
         width: 20px;
-        margin-left: 150px;
+        margin-left: 80px;
     }
     .all-payments{
         margin-left: 5px;
     }
     .reconciled{
         display: flex;
-        margin-left: 150px;
+        margin-left: 80px;
     }
     .payment-icon{
         width: 20px;
@@ -91,7 +91,7 @@
     }
     .debt-icon{
         width: 20px;
-        margin-left: 155px;
+        margin-left: 85px;
     }
     .debt{
         margin-left: 5px;
@@ -99,10 +99,11 @@
     }
     .settlement{
         display: flex;
+        margin-left: 10px;
     }
     .settlement-icon{
         width: 20px;
-        margin-left:155px
+        margin-left:75px
     }
     .manual-settlement{
         margin-left: 5px;

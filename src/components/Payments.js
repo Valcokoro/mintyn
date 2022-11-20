@@ -2,6 +2,7 @@ import React, {useState, useEffect} from 'react';
 import '../styles/componentstyle/Payments.css';
 import { fetchPayments } from '../actions';
 import {useSelector, useDispatch} from 'react-redux';
+import line from '../assets/line.svg';
 
 const Payments = () => {
     const { payments } = useSelector(state => state);
