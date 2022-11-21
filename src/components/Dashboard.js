@@ -41,14 +41,20 @@ const Dashboard = () => {
             <span className='all-payments'>All Payments</span>
           </a>
           <a href='#' className='reconciled'>
-            <span className='rec-payments'>Reconcilled Payments</span>
+            <span className='rec-payments'>
+            <img src={payment} alt='payment icon' className='payment-icon'/>
+              Reconcilled Payments
+            </span>
           </a>
           <a href='#' className='unreconciled'>
             <img src={debt} alt='debt icon' className='debt-icon'/>
             <span className='debt'>Un-Reconcilled Payments</span>
           </a>
           <a href='#' className='settlement'>
-            <span className='manual-settlement'>Manual Settlement</span>
+            <span className='manual-settlement'>
+             <img src={settlement} alt='settlement icon' className='settlement-icon'/>
+             Manual Settlement
+            </span>
           </a>
         </div>
         <div>{payments}</div>
