@@ -41,7 +41,6 @@ const Dashboard = () => {
             <span className='all-payments'>All Payments</span>
           </a>
           <a href='#' className='reconciled'>
-            <img src={payment} alt='payment icon' className='payment-icon'/>
             <span className='rec-payments'>Reconcilled Payments</span>
           </a>
           <a href='#' className='unreconciled'>
@@ -49,7 +48,6 @@ const Dashboard = () => {
             <span className='debt'>Un-Reconcilled Payments</span>
           </a>
           <a href='#' className='settlement'>
-            <img src={settlement} alt='settlement icon' className='settlement-icon'/>
             <span className='manual-settlement'>Manual Settlement</span>
           </a>
         </div>
